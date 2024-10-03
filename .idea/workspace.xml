@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39eb8fe9-1c1d-461c-a33a-60708ba75f02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SDPM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/assets/test.mdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPM/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPM/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPM/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPM/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPM/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDPM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SDPM/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDPM_base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SDPM_base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDPM_base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SDPM_base/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.SDPM.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.SDPM.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/API/assets" />
@@ -110,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718477821655</updated>
       <workItem from="1718477828471" duration="22000" />
-      <workItem from="1718477854836" duration="8999000" />
+      <workItem from="1718477854836" duration="9814000" />
+      <workItem from="1727560163823" duration="5318000" />
     </task>
     <servers />
   </component>
