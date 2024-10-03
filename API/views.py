@@ -36,7 +36,7 @@ def getBunnies(request):
     except ValueError:
         return Response({'error': 'Birth Rate must be a valid number'}, status=400)
     result = model.run({'Birth Rate': birth_rate})
-    #print(result)
+
     print(result.index)
     print(result['Population'])
     return Response(result)
