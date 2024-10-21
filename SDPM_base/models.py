@@ -21,6 +21,15 @@ class CustomUserManager(BaseUserManager):
         extra_fields.setdefault('is_superuser', True)
 
         return self.create_user(email, password, **extra_fields)
+    
+class AppUser(models.Model):
+    user_id = models.AutoField(primary_key=True)
+    user_email = models.CharField(max_length=45, unique=True)
+    user_first_name = models.CharField(max_length=45, blank=True, null=True)
+    user_last_name = models.CharField(max_length=45, blank=True, null=True)
+    user_role = models.IntegerField()
+    user_picture = models.CharField(max_length=100, blank=True, null=True)
+    user_norm_accepted = models.BooleanField(default=False)
 
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(unique=True)
@@ -37,5 +46,5 @@ class User(AbstractBaseUser, PermissionsMixin):
     REQUIRED_FIELDS = []  # Campos obligatorios adicionales
 
     def __str__(self):
-        return self.email
+        return self.user_email
 
