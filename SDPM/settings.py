@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-
 import os
 from dotenv import load_dotenv
 
@@ -32,7 +31,8 @@ SECRET_KEY = 'django-insecure-u1)fv_s7b^nuq=mq%^wf=_$=c-x+p+1kr&8^2b2sj80*h1d*_e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.209.54.62', 'localhost', '127.0.0.1']
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '18.209.54.62']
 
 # Application definition
 
@@ -110,6 +110,8 @@ DATABASES = {
         'NAME': os.getenv('POSTGRES_DB'),
         'USER': os.getenv('POSTGRES_USER'),
         'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+
+
         'HOST': os.getenv('DB_HOST', 'localhost'),
         'PORT': os.getenv('DB_PORT', '5432'),
     }
