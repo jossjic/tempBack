@@ -30,6 +30,10 @@ class AppUser(models.Model):
     user_role = models.IntegerField()
     user_picture = models.CharField(max_length=100, blank=True, null=True)
     user_norm_accepted = models.BooleanField(default=False)
+    password = models.CharField(max_length=255)  # New password field
+
+    def __str__(self):
+        return f"{self.user_first_name} {self.user_last_name} ({self.user_email})"
 
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(unique=True)
