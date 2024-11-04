@@ -32,8 +32,8 @@ class AppUser(models.Model):
     user_norm_accepted = models.BooleanField(default=False)
     password = models.CharField(max_length=255)  # New password field
 
-    def __str__(self):
-        return f"{self.user_first_name} {self.user_last_name} ({self.user_email})"
+    class Meta:
+        db_table = 'appuser'  # Nombre exacto de la tabla en la base de datos
 
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(unique=True)
