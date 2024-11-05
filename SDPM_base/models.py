@@ -34,6 +34,7 @@ class AppUser(models.Model):
 
     class Meta:
         db_table = 'appuser'  # Nombre exacto de la tabla en la base de datos
+        managed = False       # Desactiva la gestión de Django
 
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(unique=True)
